@@ -1,0 +1,61 @@
+ion-content {
+  .bg-class {
+    position: relative;
+  }
+
+  .bg-left-rectangle {
+    position: fixed;
+    bottom: -110px;
+    left: -130px;
+    width: 150%;
+    height: 250px;
+    transform: rotate(25deg);
+    background: rgb(108, 210, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(108, 210, 255, 1) 0%,
+      rgba(80, 171, 219, 1) 0%,
+      rgba(14, 80, 133, 1) 0%,
+      rgba(69, 156, 205, 1) 0%,
+      rgba(43, 120, 171, 1) 0%,
+      rgba(14, 80, 133, 1) 66%,
+      rgba(14, 80, 133, 1) 99%,
+      rgba(14, 80, 133, 1) 100%
+    );
+  }
+
+  .bg-right-rectangle {
+    background: rgb(34, 188, 255);
+    background: linear-gradient(
+      79deg,
+      rgba(34, 188, 255, 1) 0%,
+      rgba(108, 210, 255, 1) 0%,
+      rgba(46, 192, 255, 1) 0%,
+      rgba(91, 205, 255, 1) 0%,
+      rgba(240, 250, 255, 1) 100%
+    );
+    position: fixed;
+    right: -160px;
+    top: 230px;
+    width: 160%;
+    height: 600px;
+    transform: rotate(335deg);
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    span {
+      color: #f90;
+      font-weight: bold;
+    }
+
+    p {
+      color: white;
+    }
+  }
+}
