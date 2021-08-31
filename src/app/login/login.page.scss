@@ -19,15 +19,30 @@ ion-content {
       rgba(14, 80, 133, 1) 100%
     );
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1440px) {
       bottom: -400px;
+      left: -290px;
+      width: 180%;
+      height: 1000px;
+      transform: rotate(20deg);
+    }
+    @media screen and (max-width: 1024px) {
+      bottom: -450px;
       left: -240px;
       width: 160%;
       height: 700px;
       transform: rotate(15deg);
     }
+
     @media screen and (max-width: 768px) {
       bottom: -500px;
+      left: -240px;
+      width: 160%;
+      height: 700px;
+      transform: rotate(15deg);
+    }
+    @media screen and (max-width: 540px) {
+      bottom: -550px;
       left: -240px;
       width: 160%;
       height: 700px;
@@ -83,38 +98,53 @@ ion-content {
     );
     position: fixed;
 
-    @media screen and (max-width: 1024px) {
-      right: -350px;
-      top: 470px;
-      width: 160%;
-      height: 1000px;
+    @media screen and (max-width: 1440px) {
+      right: -480px;
+      top: 1100px;
+      width: 190%;
+      height: 1900px;
       transform: rotate(338deg);
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
       right: -350px;
-      top: 300px;
+      top: 490px;
       width: 160%;
       height: 1000px;
       transform: rotate(338deg);
     }
 
+    @media screen and (max-width: 768px) {
+      right: -350px;
+      top: 350px;
+      width: 160%;
+      height: 1000px;
+      transform: rotate(338deg);
+    }
+
+    @media screen and (max-width: 540px) {
+      right: -350px;
+      top: 190px;
+      width: 160%;
+      height: 1000px;
+      transform: rotate(338deg);
+    }
     @media screen and (max-width: 414px) {
       right: -160px;
-      top: 230px;
+      top: 250px;
       width: 160%;
       height: 600px;
       transform: rotate(335deg);
     }
     @media screen and (max-width: 411px) {
       right: -160px;
-      top: 230px;
+      top: 260px;
       width: 160%;
       height: 600px;
       transform: rotate(335deg);
     }
     @media screen and (max-width: 375px) {
       right: -160px;
-      top: 205px;
+      top: 240px;
       width: 160%;
       height: 600px;
       transform: rotate(335deg);
@@ -128,7 +158,7 @@ ion-content {
     }
     @media screen and (max-width: 320px) {
       right: -160px;
-      top: 160px;
+      top: 190px;
       width: 160%;
       height: 600px;
       transform: rotate(335deg);
@@ -140,10 +170,59 @@ ion-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -10px;
+    // margin-top: -10px;
+
+    @media screen and (max-width: 1440px) {
+      margin-top: -140px;
+    }
+    @media screen and (max-width: 1024px) {
+      margin-top: -100px;
+    }
+    @media screen and (max-width: 768px) {
+      margin-top: -50px;
+    }
+    @media screen and (max-width: 540px) {
+      margin-top: -30px;
+    }
+    @media screen and (max-width: 414px) {
+      margin-top: -25px;
+    }
+    @media screen and (max-width: 411px) {
+      margin-top: -20px;
+    }
+    @media screen and (max-width: 375px) {
+      margin-top: -35px;
+    }
+    @media screen and (max-width: 360px) {
+      margin-top: -25px;
+    }
+    @media screen and (max-width: 320px) {
+      margin-top: -20px;
+    }
 
     img {
-      width: 65%;
+      width: 70%;
+      @media screen and (max-width: 1440px) {
+        width: 80%;
+      }
+      @media screen and (max-width: 1024px) {
+        width: 60%;
+      }
+      @media screen and (max-width: 768px) {
+        width: 58%;
+      }
+      @media screen and (max-width: 540px) {
+        width: 50%;
+      }
+      @media screen and (max-width: 414px) {
+        width: 69%;
+      }
+      @media screen and (max-width: 375px) {
+        width: 75%;
+      }
+      @media screen and (max-width: 320px) {
+        width: 70%;
+      }
     }
   }
 
@@ -163,11 +242,17 @@ ion-content {
       color: white;
     }
 
+    @media screen and (max-width: 1440px) {
+      font-size: 55px;
+    }
     @media screen and (max-width: 1024px) {
       font-size: 28px;
     }
     @media screen and (max-width: 768px) {
       font-size: 22px;
+    }
+    @media screen and (max-width: 540px) {
+      font-size: 17px;
     }
     @media screen and (max-width: 414px) {
       font-size: 16px;
@@ -175,7 +260,6 @@ ion-content {
     @media screen and (max-width: 411px) {
       font-size: 15px;
     }
-
     @media screen and (max-width: 360px) {
       font-size: 13px;
     }
