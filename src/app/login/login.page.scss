@@ -5,11 +5,7 @@ ion-content {
 
   .bg-left-rectangle {
     position: fixed;
-    bottom: -110px;
-    left: -130px;
-    width: 150%;
-    height: 250px;
-    transform: rotate(25deg);
+
     background: rgb(108, 210, 255);
     background: linear-gradient(
       0deg,
@@ -22,6 +18,57 @@ ion-content {
       rgba(14, 80, 133, 1) 99%,
       rgba(14, 80, 133, 1) 100%
     );
+
+    @media screen and (max-width: 1024px) {
+      bottom: -400px;
+      left: -240px;
+      width: 160%;
+      height: 700px;
+      transform: rotate(15deg);
+    }
+    @media screen and (max-width: 768px) {
+      bottom: -500px;
+      left: -240px;
+      width: 160%;
+      height: 700px;
+      transform: rotate(15deg);
+    }
+    @media screen and (max-width: 414px) {
+      bottom: -90px;
+      left: -130px;
+      width: 150%;
+      height: 250px;
+      transform: rotate(25deg);
+    }
+    @media screen and (max-width: 411px) {
+      bottom: -100px;
+      left: -130px;
+      width: 150%;
+      height: 250px;
+      transform: rotate(25deg);
+    }
+
+    @media screen and (max-width: 375px) {
+      bottom: -110px;
+      left: -130px;
+      width: 150%;
+      height: 250px;
+      transform: rotate(25deg);
+    }
+    @media screen and (max-width: 360px) {
+      bottom: -110px;
+      left: -130px;
+      width: 150%;
+      height: 250px;
+      transform: rotate(25deg);
+    }
+    @media screen and (max-width: 320px) {
+      bottom: -110px;
+      left: -130px;
+      width: 150%;
+      height: 250px;
+      transform: rotate(20deg);
+    }
   }
 
   .bg-right-rectangle {
@@ -35,11 +82,69 @@ ion-content {
       rgba(240, 250, 255, 1) 100%
     );
     position: fixed;
-    right: -160px;
-    top: 230px;
-    width: 160%;
-    height: 600px;
-    transform: rotate(335deg);
+
+    @media screen and (max-width: 1024px) {
+      right: -350px;
+      top: 470px;
+      width: 160%;
+      height: 1000px;
+      transform: rotate(338deg);
+    }
+    @media screen and (max-width: 768px) {
+      right: -350px;
+      top: 300px;
+      width: 160%;
+      height: 1000px;
+      transform: rotate(338deg);
+    }
+
+    @media screen and (max-width: 414px) {
+      right: -160px;
+      top: 230px;
+      width: 160%;
+      height: 600px;
+      transform: rotate(335deg);
+    }
+    @media screen and (max-width: 411px) {
+      right: -160px;
+      top: 230px;
+      width: 160%;
+      height: 600px;
+      transform: rotate(335deg);
+    }
+    @media screen and (max-width: 375px) {
+      right: -160px;
+      top: 205px;
+      width: 160%;
+      height: 600px;
+      transform: rotate(335deg);
+    }
+    @media screen and (max-width: 360px) {
+      right: -160px;
+      top: 230px;
+      width: 160%;
+      height: 600px;
+      transform: rotate(335deg);
+    }
+    @media screen and (max-width: 320px) {
+      right: -160px;
+      top: 160px;
+      width: 160%;
+      height: 600px;
+      transform: rotate(335deg);
+    }
+  }
+
+  .logo {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+
+    img {
+      width: 65%;
+    }
   }
 
   .footer {
@@ -56,6 +161,23 @@ ion-content {
 
     p {
       color: white;
+    }
+
+    @media screen and (max-width: 1024px) {
+      font-size: 28px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 22px;
+    }
+    @media screen and (max-width: 414px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 411px) {
+      font-size: 15px;
+    }
+
+    @media screen and (max-width: 360px) {
+      font-size: 13px;
     }
   }
 }
