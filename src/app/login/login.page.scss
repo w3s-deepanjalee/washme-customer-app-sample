@@ -1,7 +1,9 @@
+* {
+  font-family: "Raleway" !important;
+}
 ion-content {
   .bg-class {
     position: relative;
-    display: flex;
 
     justify-content: center;
   }
@@ -90,6 +92,7 @@ ion-content {
   }
 
   .bg-right-rectangle {
+    z-index: -1;
     background: rgb(34, 188, 255);
     background: linear-gradient(
       79deg,
@@ -169,42 +172,41 @@ ion-content {
   }
 
   .logo {
-    position: fixed;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    // margin-top: -10px;
+    margin-top: -20px;
 
-    @media screen and (max-width: 1440px) {
-      margin-top: -140px;
-    }
-    @media screen and (max-width: 1024px) {
-      margin-top: -100px;
-    }
-    @media screen and (max-width: 768px) {
-      margin-top: -50px;
-    }
-    @media screen and (max-width: 540px) {
-      margin-top: -30px;
-    }
-    @media screen and (max-width: 414px) {
-      margin-top: -25px;
-    }
-    @media screen and (max-width: 411px) {
-      margin-top: -20px;
-    }
-    @media screen and (max-width: 375px) {
-      margin-top: -35px;
-    }
-    @media screen and (max-width: 360px) {
-      margin-top: -25px;
-    }
-    @media screen and (max-width: 320px) {
-      margin-top: -20px;
-    }
+    // @media screen and (max-width: 1440px) {
+    //   margin-top: -140px;
+    // }
+    // @media screen and (max-width: 1024px) {
+    //   margin-top: -100px;
+    // }
+    // @media screen and (max-width: 768px) {
+    //   margin-top: -50px;
+    // }
+    // @media screen and (max-width: 540px) {
+    //   margin-top: -30px;
+    // }
+    // @media screen and (max-width: 414px) {
+    //   margin-top: -25px;
+    // }
+    // @media screen and (max-width: 411px) {
+    //   margin-top: -20px;
+    // }
+    // @media screen and (max-width: 375px) {
+    //   margin-top: -35px;
+    // }
+    // @media screen and (max-width: 360px) {
+    //   margin-top: -25px;
+    // }
+    // @media screen and (max-width: 320px) {
+    //   margin-top: -20px;
+    // }
 
     img {
-      width: 70%;
       @media screen and (max-width: 1440px) {
         width: 80%;
       }
@@ -269,21 +271,97 @@ ion-content {
   }
 
   .login-form {
-    position: absolute;
-    width: 90%;
+    display: block;
+    height: 60vh;
+
+    justify-content: center;
 
     ion-card-title {
-      font-size: 28px;
-      font-weight: 700;
+      font-size: 27px;
+      font-weight: bolder;
       color: #07273b;
       opacity: 0.75;
     }
 
+    form {
+      margin: -40px 10px 0px 10px;
+    }
+
     ion-card {
-      height: 360px;
+      height: 100%;
       border-radius: 20px;
-      top: 210px;
       box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    }
+  }
+
+  .form-felids {
+    margin-top: 10px;
+    ion-input {
+      font-weight: 700;
+      font-size: 19px;
+
+      // @media screen and (max-width: 768px) {
+      //   font-size: 19px;
+      // }
+      // @media screen and (max-width: 414px) {
+      //   font-size: 19px;
+      // }
+      // @media screen and (max-width: 411px) {
+      //   font-size: 19px;
+      // }
+      // @media screen and (max-width: 375px) {
+      //   font-size: 17px;
+      // }
+      // @media screen and (max-width: 360px) {
+      //   font-size: 17px;
+      // }
+      // @media screen and (max-width: 320px) {
+      //   font-size: 16px;
+      // }
+    }
+  }
+
+  .forgot-password {
+    color: #07273b;
+    opacity: 0.76;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-right: 2px;
+    text-decoration: none;
+  }
+
+  .forgot-password a:hover,
+  a:focus,
+  a:active {
+    color: #0582ca;
+  }
+
+  .form-button {
+    width: 100%;
+    --vertical-align: middle;
+    --border-color: #22bcff;
+    --border-radius: 50px;
+    margin-top: 20px;
+    font-size: 17px;
+
+    --color: #07273b;
+    font-weight: bolder;
+  }
+
+  .create-account {
+    margin-top: 20px;
+
+    .create-account-link {
+      color: #22bcff;
+      font-weight: bolder;
+    }
+
+    .create-account-link a:hover,
+    a:focus,
+    a:active {
+      color: #0582ca;
+      font-size: 16px;
+      font-weight: bolder;
     }
   }
 }
