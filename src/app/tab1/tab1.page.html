@@ -1,4 +1,4 @@
-<ion-header [translucent]="true">
+<ion-header class="ion-no-border">
   <ion-toolbar no-border>
 
     <div slot="start" class="logo">
@@ -20,5 +20,114 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <div class="item-category">
+
+    <div>
+      <ion-slides [options]=slideOpts>
+        <ion-slide>
+          <div class="category-wrapper">
+            <div class="category-img">
+              <img src="../../assets/item-category/trousers.png" />
+
+            </div>
+            <div class="category-name">
+              <ion-label>BOTTOM </ion-label>
+            </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="category-wrapper">
+            <div class="category-img">
+              <img src="../../assets/item-category/woolen-socks.png" />
+
+            </div>
+            <div class="category-name">
+              <ion-label>SOCKS </ion-label>
+            </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="category-wrapper">
+            <div class="category-img">
+              <img src="../../assets/item-category/polo-shirt.png" />
+
+            </div>
+            <div class="category-name">
+              <ion-label>SHIRT </ion-label>
+            </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="category-wrapper">
+            <div class="category-img">
+              <img src="../../assets/item-category/blouse.png" />
+
+            </div>
+            <div class="category-name">
+              <ion-label>TOP </ion-label>
+            </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="category-wrapper">
+            <div class="category-img">
+              <img src="../../assets/item-category/Path 29.png" />
+
+            </div>
+            <div class="category-name">
+              <ion-label>SHORT </ion-label>
+            </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="category-wrapper">
+            <div class="category-img">
+              <img src="../../assets/item-category/Path 29.png" />
+
+            </div>
+            <div class="category-name">
+              <ion-label>SHORT </ion-label>
+            </div>
+          </div>
+        </ion-slide>
+
+
+      </ion-slides>
+    </div>
+
+  </div>
+
+  <div class="item-wrapper">
+    <div class="single-tem">
+      <ion-card>
+        <div class="item-details">
+
+          <ion-card-title>Kurtha Top</ion-card-title>
+
+          <ion-badge color="secondary">Rs.200.00</ion-badge>
+
+          <ion-badge color="light" slot="end">24</ion-badge>
+
+          <ion-button color="dark" fill="clear">
+            <ion-icon name="cart"></ion-icon>
+            Add to cart
+          </ion-button>
+
+
+        </div>
+        <div class="item-img">
+          <img src="../../assets/item-category/TJ-MW-10-09_1.png" class="item-img" alt="">
+          <ion-icon color="secondary" name="heart-circle" size="large"></ion-icon>
+        </div>
+
+
+      </ion-card>
+    </div>
+
+  </div>
+
+
+
+
 
 </ion-content>
