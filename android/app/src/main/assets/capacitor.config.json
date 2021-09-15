@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "washme-customer-app-sample",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

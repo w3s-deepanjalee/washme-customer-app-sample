@@ -1,0 +1,101 @@
+* {
+  font-family: "Raleway" !important;
+}
+
+ion-header {
+  ion-title {
+    font-weight: bolder;
+    font-size: 22px;
+    color: #0582ca;
+  }
+
+  .search-icon {
+    color: #0582ca;
+  }
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+ion-content {
+  --ion-background-color: #f5f2ec;
+
+  .cart-heading {
+    background-color: var(--washme-blue);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart-heading ion-label {
+    color: white;
+    font-size: 23px;
+  }
+
+  .item-add-btn {
+    margin-top: 3em;
+
+    ion-button {
+      font-size: 21px;
+      font-weight: bolder;
+      opacity: 0.6;
+      text-transform: none;
+    }
+
+    ion-icon {
+      font-size: 21px;
+      margin-right: 0.5em;
+    }
+  }
+
+  .item-btn {
+    display: flex;
+    justify-content: center;
+
+    ion-button {
+      width: 80%;
+      height: 13vh;
+      --border-radius: 24px;
+
+      --background: rgb(56, 236, 188);
+      --background: linear-gradient(
+        180deg,
+        rgba(56, 236, 188, 1) 0%,
+        rgba(34, 188, 255, 1) 100%
+      );
+    }
+
+    ion-card {
+      width: 80%;
+      height: 13vh;
+      border-radius: 24px !important;
+      --background: rgb(56, 236, 188);
+      --background: linear-gradient(
+        180deg,
+        rgba(56, 236, 188, 1) 0%,
+        rgba(34, 188, 255, 1) 100%
+      );
+
+      --color: white;
+
+      ion-card-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .cart-icon {
+          flex-basis: 25%;
+          ion-icon {
+            font-size: 39px;
+          }
+        }
+
+        .cart-description {
+          flex-basis: 75%;
+        }
+      }
+    }
+  }
+}

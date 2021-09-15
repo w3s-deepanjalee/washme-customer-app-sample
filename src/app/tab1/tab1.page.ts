@@ -10,7 +10,7 @@ export class Tab1Page {
 
   // eslint-disable-next-line @typescript-eslint/member-ordering
   slideOpts = {
-    slidesPerView: 4.5,
+    slidesPerView: 5.5,
     spaceBetween: 1,
     centeredSlides: false,
     loop: false,
