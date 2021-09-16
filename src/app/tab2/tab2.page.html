@@ -1,24 +1,18 @@
 <ion-header class="ion-no-border">
-  <ion-toolbar no-border>
-
+  <ion-toolbar no-border="no-border">
     <div slot="start" class="logo">
-      <img src="../../assets/logo/logo-header.png" width="40px" />
+      <img src="../../assets/logo/logo-header.png" width="40px">
     </div>
 
-
-    <ion-title class="ion-text-center">
-      washme.lk
-    </ion-title>
+    <ion-title class="ion-text-center">washme.lk</ion-title>
 
     <ion-buttons slot="end">
       <ion-button>
         <ion-icon slot="end" name="search-circle" size="large" class="search-icon"></ion-icon>
-
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
-
 
 <ion-content [fullscreen]="true">
   <div class="cart-heading">
@@ -27,28 +21,52 @@
 
   <div class="item-add-btn">
     <ion-button fill="clear" color="dark" expand="block">
-
       <ion-icon name="add-circle"></ion-icon>
       Add Item
     </ion-button>
   </div>
 
   <section>
-    <div class="item-btn" expand="block">
-      <ion-card>
+    <ion-grid fixed>
+      <ion-row class="ion-justify-content-center">
+        <ion-card class="empty-cart">
+          <ion-card-content class="empty-content-txt">
+            <div class="cart-icon">
+              <ion-icon name="cart-outline"></ion-icon>
+            </div>
 
-        <ion-card-content>
-          <div class="cart-icon">
-            <ion-icon name="cart-outline"></ion-icon>
-          </div>
-          <div class="cart-description">
-            <ion-label>YAour Cart is empty. Continue Shopping.</ion-label>
-          </div>
-        </ion-card-content>
-      </ion-card>
-    </div>
+            <div class="cart-description">
+              <ion-label>
+                Your Cart is empty. Continue Shopping.
+              </ion-label>
+            </div>
+          </ion-card-content>
+        </ion-card>
+
+
+        <ion-card class="empty-cart">
+          <ion-card-content class="empty-content-btn">
+            <ion-item color="transparent" lines="none">
+              <ion-label>
+                Popular Items
+              </ion-label>
+            </ion-item>
+
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card class="empty-cart">
+          <ion-card-content class="empty-content-btn">
+            <ion-item color="transparent" lines="none">
+              <ion-label>
+                Favorite Items
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-row>
+    </ion-grid>
   </section>
-
 
 
 

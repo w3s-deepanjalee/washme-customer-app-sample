@@ -35,7 +35,7 @@ ion-content {
   }
 
   .item-add-btn {
-    margin-top: 3em;
+    margin-top: 2em;
 
     ion-button {
       font-size: 21px;
@@ -50,52 +50,41 @@ ion-content {
     }
   }
 
-  .item-btn {
-    display: flex;
-    justify-content: center;
+  .empty-cart {
+    width: 80%;
+    height: 13vh;
+    border-radius: 24px !important;
+    --background: rgb(56, 236, 188);
+    --background: linear-gradient(
+      180deg,
+      rgba(56, 236, 188, 1) 0%,
+      rgba(34, 188, 255, 1) 100%
+    );
+    padding: 0.2em;
 
-    ion-button {
-      width: 80%;
-      height: 13vh;
-      --border-radius: 24px;
+    --color: white;
 
-      --background: rgb(56, 236, 188);
-      --background: linear-gradient(
-        180deg,
-        rgba(56, 236, 188, 1) 0%,
-        rgba(34, 188, 255, 1) 100%
-      );
-    }
-
-    ion-card {
-      width: 80%;
-      height: 13vh;
-      border-radius: 24px !important;
-      --background: rgb(56, 236, 188);
-      --background: linear-gradient(
-        180deg,
-        rgba(56, 236, 188, 1) 0%,
-        rgba(34, 188, 255, 1) 100%
-      );
-
-      --color: white;
-
-      ion-card-content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        .cart-icon {
-          flex-basis: 25%;
-          ion-icon {
-            font-size: 39px;
-          }
-        }
-
-        .cart-description {
-          flex-basis: 75%;
+    .empty-content-txt {
+      display: flex;
+      .cart-icon {
+        flex-basis: 25%;
+        ion-icon {
+          font-size: 39px;
         }
       }
+      .cart-description {
+        flex-basis: 75%;
+      }
+    }
+
+    .empty-content-btn {
+      display: flex;
+      vertical-align: middle !important;
+      justify-content: center;
+    }
+
+    ion-item {
+      color: white;
     }
   }
 }
