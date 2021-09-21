@@ -6,11 +6,11 @@ ion-header {
   ion-title {
     font-weight: bolder;
     font-size: 22px;
-    color: #0582ca;
+    color: var(--washme-blue);
   }
 
   .search-icon {
-    color: #0582ca;
+    color: var(--washme-blue);
   }
 }
 
@@ -34,7 +34,7 @@ ion-content {
     border-radius: 50%;
     position: relative;
     background-image: linear-gradient(white, white),
-      linear-gradient(to top, var(--washme-blue), #38ecbc);
+      linear-gradient(to top, var(--washme-blue), var(--washme-green));
     border: 4px solid transparent;
     background-origin: border-box;
     background-clip: content-box, border-box;

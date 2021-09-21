@@ -1,9 +1,70 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>cart</ion-title>
+<ion-header class="ion-no-border">
+  <ion-toolbar no-border="no-border">
+    <div slot="start" class="logo">
+      <img src="../../assets/logo/logo-header.png" width="40px">
+    </div>
+
+    <ion-title class="ion-text-center">washme.lk</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="end" name="search-circle" size="large" class="search-icon"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+  <div class="cart-heading">
+    <ion-label>Your Items</ion-label>
+  </div>
 
+  <div class="item-add-btn">
+    <ion-button fill="clear" color="dark" expand="block">
+      <ion-icon name="add-circle"></ion-icon>
+      Add Items
+    </ion-button>
+  </div>
+
+  <section>
+    <hr class="divider">
+
+    <ion-list>
+      <ion-item class="ion-margin-end">
+        <div class="item-img-round" style="background-image: url(../../assets/item-category/TJ-MW-10-09_1.png);"></div>
+
+        <div>Kurutha Top</div>
+
+        <div class="increase-qty">
+          <ion-button fill="clear">-</ion-button>
+        </div>
+
+        <div class="item-qty">2</div>
+
+        <div class="increase-qty">
+          <ion-button fill="clear">+</ion-button>
+        </div>
+
+        <div>Rs.250</div>
+      </ion-item>
+
+      <ion-item class="ion-margin-end">
+        <div class="item-img-round" style="background-image: url(../../assets/item-category/Saree.png);"></div>
+
+        <div>Kurutha Top</div>
+
+        <div class="increase-qty">
+          <ion-button fill="clear">-</ion-button>
+        </div>
+
+        <div class="item-qty">2</div>
+
+        <div class="increase-qty">
+          <ion-button fill="clear">+</ion-button>
+        </div>
+
+        <div>Rs.250</div>
+      </ion-item>
+    </ion-list>
+  </section>
 </ion-content>
