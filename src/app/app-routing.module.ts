@@ -21,6 +21,14 @@ const routes: Routes = [
     path: 'login2',
     loadChildren: () => import('./login2/login2.module').then( m => m.Login2PageModule)
   },
+  {
+    path: 'quick-login',
+    loadChildren: () => import('./quick-login/quick-login.module').then( m => m.QuickLoginPageModule)
+  },
+  {
+    path: 'my-account',
+    loadChildren: () => import('./my-account/my-account.module').then( m => m.MyAccountPageModule)
+  },
 ];
 @NgModule({
   imports: [
