@@ -1,14 +1,19 @@
 <ion-header class="ion-no-border">
   <ion-toolbar no-border="no-border">
     <div slot="start" class="logo">
-      <img src="../../assets/logo/logo-header.png" width="40px">
+      <img src="../../assets/logo/logo-header.png" width="40px" />
     </div>
 
     <ion-title class="ion-text-center">washme.lk</ion-title>
 
     <ion-buttons slot="end">
       <ion-button>
-        <ion-icon slot="end" name="search-circle" size="large" class="search-icon"></ion-icon>
+        <ion-icon
+          slot="end"
+          name="search-circle"
+          size="large"
+          class="search-icon"
+        ></ion-icon>
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
@@ -27,29 +32,66 @@
   </div>
 
   <section>
-    <hr class="divider">
+    <hr class="divider" />
 
     <ion-list>
       <ion-item class="ion-margin-end">
-        <div class="item-img-round" style="background-image: url(../../assets/item-category/TJ-MW-10-09_1.png);"></div>
+        <div class="item-img-wrapper">
+          <div
+            class="item-img-round"
+            style="background-image: url(../../assets/item-category/TJ-MW-10-09_1.png);"
+          ></div>
+        </div>
 
-        <div>Kurutha Top</div>
+        <div class="item-name">Kurutha Top</div>
 
         <div class="increase-qty">
           <ion-button fill="clear">-</ion-button>
         </div>
-
-        <div class="item-qty">2</div>
+        <div class="item-qty-wrapper">
+          <div class="item-qty">2</div>
+        </div>
 
         <div class="increase-qty">
           <ion-button fill="clear">+</ion-button>
         </div>
 
-        <div>Rs.250</div>
+        <div class="amount-wrapper">Rs.250</div>
       </ion-item>
 
       <ion-item class="ion-margin-end">
-        <div class="item-img-round" style="background-image: url(../../assets/item-category/Saree.png);"></div>
+        <div class="item-img-wrapper">
+          <div
+            class="item-img-round"
+            style="background-image: url(../../assets/item-category/Saree.png);"
+          ></div>
+        </div>
+
+        <div class="item-name">Blouse</div>
+
+        <div class="increase-qty">
+          <ion-button fill="clear">-</ion-button>
+        </div>
+        <div class="item-qty-wrapper">
+          <div class="item-qty">1</div>
+        </div>
+
+        <div class="increase-qty">
+          <ion-button fill="clear">+</ion-button>
+        </div>
+
+        <div class="amount-wrapper">Rs.350</div>
+      </ion-item>
+    </ion-list>
+
+    <hr class="divider" />
+
+    <ion-list>
+      <ion-item class="ion-margin-end">
+        <div
+          class="item-img-round"
+          style="background-image: url(../../assets/item-category/Saree.png);"
+        ></div>
 
         <div>Kurutha Top</div>
 
