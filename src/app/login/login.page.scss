@@ -10,8 +10,6 @@ ion-content {
 
   .bg-left-rectangle {
     position: fixed;
-   
-
     background: rgb(108, 210, 255);
     background: linear-gradient(
       0deg,
@@ -70,6 +68,7 @@ ion-content {
     }
 
     @media screen and (max-width: 375px) {
+      
       bottom: -110px;
       left: -130px;
       width: 150%;
@@ -77,6 +76,7 @@ ion-content {
       transform: rotate(25deg);
     }
     @media screen and (max-width: 360px) {
+   
       bottom: -110px;
       left: -130px;
       width: 150%;
@@ -178,7 +178,7 @@ ion-content {
     align-items: center;
     justify-content: center;
     margin-top: -20px;
-
+    z-index: 999;
     img {
       @media screen and (max-width: 1440px) {
         width: 80%;
