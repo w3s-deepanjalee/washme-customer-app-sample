@@ -105,6 +105,88 @@
     }
   
 
+   
+    }
+
+    .order-type-wrapper{
+      margin: 2em 1.5em 1em 1.5em;
+     
+
+      .order-type {
+       
+        display: flex;
+        justify-content: center;
+        
+        align-items: center;
+        
+
+        
+        
+        ion-card-content{
+          ion-item{
+            ion-label{
+              text-align: center;
+              color: white;
+            }
+          }
+        }
+
+      }
+
+      .btn{
+        --background: rgb(56, 236, 188);
+      --background: linear-gradient(
+        180deg,
+        rgba(56, 236, 188, 1) 0%,
+        rgba(34, 188, 255, 1) 100%
+      );
+      height: 10vh;
+      font-weight: 900;
+      border-radius: 5em !important;
+
+      }
+      .img{
+        background-image: url(../../assets/order-type/faviourt.png);
+        border-radius: 21px;
+        height: 8em;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+
+        background-position: right !important;
+        background-size: cover;
+      }
 
     }
+
+    // .item-wrapper{
+    //   margin: 2em 1.5em 1em 1.5em;
+    //   .empty-cart {
+      
+    //     height: 10vh;
+    //     border-radius: 5em !important;
+    //     --background: rgb(56, 236, 188);
+    //     --background: linear-gradient(
+    //       180deg,
+    //       rgba(56, 236, 188, 1) 0%,
+    //       rgba(34, 188, 255, 1) 100%
+    //     );
+    //     padding: 0.2em;
+    
+    //     --color: white;
+    
+     
+    
+    //     .empty-content-btn {
+    //       display: flex;
+         
+    //       justify-content: center;
+    //     }
+    
+    //     ion-item {
+    //       color: white;
+    //     }
+    //   }
+    // }
+  
+
     }

@@ -41,8 +41,9 @@
 
         <div class="button-wrapper">
           <ion-button expand="block"
-            ><span class="ion-text-left"> Address Book </span></ion-button
-          >
+            ><span class="ion-text-left"> Address Book </span>
+            <ion-icon name="create"></ion-icon>
+          </ion-button>
         </div>
 
         <div class="save-btn-wrapper">
@@ -55,5 +56,39 @@
     </div>
   </section>
 
-  <section></section>
+  <section>
+    <div class="order-type-wrapper">
+      <ion-card class="order-type btn" button>
+        <ion-card-content>
+          <ion-item color="transparent" lines="none">
+            <ion-label> My Order</ion-label>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="order-type btn" button>
+        <ion-card-content>
+          <ion-item color="transparent" lines="none">
+            <ion-label> My Review</ion-label>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="order-type btn" button>
+        <ion-card-content>
+          <ion-item color="transparent" lines="none">
+            <ion-label> My Cancellation</ion-label>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <div class="order-type-wrapper">
+      <ion-card button class="order-type img">
+        <ion-card-content>
+          <ion-item color="transparent" lines="none">
+            <ion-label> My Order</ion-label>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </section>
 </ion-content>
