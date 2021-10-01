@@ -29,6 +29,10 @@ const routes: Routes = [
     path: 'my-account',
     loadChildren: () => import('./my-account/my-account.module').then( m => m.MyAccountPageModule)
   },
+  {
+    path: 'order-type-select',
+    loadChildren: () => import('./order-type-select/order-type-select.module').then( m => m.OrderTypeSelectPageModule)
+  },
 ];
 @NgModule({
   imports: [
