@@ -1,9 +1,59 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>tab4</ion-title>
+<ion-header class="ion-no-border">
+  <ion-toolbar no-border="no-border">
+    <div slot="start" class="logo">
+      <img src="../../assets/logo/logo-header.png" width="40px" />
+    </div>
+
+    <ion-title class="ion-text-center">washme.lk</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon
+          slot="end"
+          name="search-circle"
+          size="large"
+          class="search-icon"
+        ></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+  <section>
+    <div class="feild-wrapper">
+      <form action="">
+        <div class="input-feild">
+          <ion-input placeholder="First Name"> </ion-input>
+        </div>
+        <div class="input-feild">
+          <ion-input placeholder="Last Name"> </ion-input>
+        </div>
+        <div class="input-feild">
+          <ion-input placeholder="Email"> </ion-input>
+        </div>
+        <div class="input-feild">
+          <ion-input placeholder="Mobile"> </ion-input>
+        </div>
+        <div class="date-time-wrapper">
+          <ion-datetime placeholder="Birth Day" float-start></ion-datetime>
+        </div>
 
+        <div class="button-wrapper">
+          <ion-button expand="block"
+            ><span class="ion-text-left"> Address Book </span></ion-button
+          >
+        </div>
+
+        <div class="save-btn-wrapper">
+          <ion-button>
+            <ion-icon name="save"></ion-icon>
+            Save
+          </ion-button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section></section>
 </ion-content>

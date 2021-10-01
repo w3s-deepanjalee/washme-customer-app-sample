@@ -1,3 +1,7 @@
+* {
+  font-family: "Raleway" !important;
+}
+
 ion-header {
     ion-title {
       font-weight: bolder;
@@ -8,6 +12,13 @@ ion-header {
       color: var(--washme-blue);
     }
   }
+
   .logo {
     margin-left: 10px;
+  }
+
+  
+
+  ion-content{
+    --ion-background-color: #f5f2ec;
   }
