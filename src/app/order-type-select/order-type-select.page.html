@@ -26,9 +26,68 @@
     </div>
 
     <div class="address-wrapper">
-      <ion-item class="ion-text-right ion-margin address-heading">
+      <ion-item class="ion-text-right ion-margin address-heading" lines="none">
         <ion-label>Edit Address </ion-label>
       </ion-item>
+
+      <ion-item class="ion-margin address-btn-wrapper" lines="none">
+        <ion-button class="active" fill="clear">
+          <ion-icon name="home"></ion-icon>
+          <ion-label>Home</ion-label>
+        </ion-button>
+        <ion-button fill="clear">
+          <ion-icon name="briefcase"></ion-icon>
+
+          <ion-label>Office</ion-label>
+        </ion-button>
+        <ion-button fill="clear">
+          <ion-icon name="home"></ion-icon>
+          <ion-label>Other</ion-label>
+        </ion-button>
+      </ion-item>
+
+      <ion-item class="ion-margin" lines="none">
+        <ion-label>Home : 78/2,Suwarapola, Piliyandalas</ion-label>
+      </ion-item>
+
+      <hr class="divider" />
+    </div>
+  </section>
+
+  <section>
+    <div class="delivery-type-wrapper">
+      <ion-item lines="none">
+        <ion-button class="btn active-type"> Regular </ion-button>
+        <ion-button class="btn"> Next Day </ion-button>
+        <ion-button class="btn"> Express </ion-button>
+      </ion-item>
+    </div>
+
+    <ion-item class="ion-margin" lines="none">
+      <ion-label>Regular : Normal Price</ion-label>
+    </ion-item>
+
+    <hr class="divider" />
+  </section>
+
+  <section>
+    <div class="date-time-wrapper">
+      <div class="date">
+        <ion-icon name="calendar"></ion-icon>
+        <ion-datetime placeholder="Pickup date"></ion-datetime>
+      </div>
+
+      <div class="time">
+        <ion-datetime
+          placeholder="Time"
+          display-format="h:mm A"
+          picker-format="h:mm A"
+        ></ion-datetime>
+      </div>
+    </div>
+
+    <div class="btn-wrapper">
+      <ion-button class="next-btn">Login</ion-button>
     </div>
   </section>
 </ion-content>
