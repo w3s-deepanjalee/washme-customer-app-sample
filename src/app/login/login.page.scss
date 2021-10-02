@@ -2,6 +2,7 @@
   font-family: "Raleway" !important;
 }
 ion-content {
+   
   .bg-class {
     position: relative;
 
@@ -99,10 +100,8 @@ ion-content {
 ion-footer{
   ion-toolbar{
     --min-height: 30px;
-    
-    --background: rgb(14,80,133);
-    --background: linear-gradient(216deg, rgba(14,80,133,1) 64%, rgba(32,104,156,1) 90%, rgba(54,135,184,1) 98%, rgba(108,210,255,1) 100%);
-
+    bottom: 0px;
+    --background :none;
 
     --color:white;
     a{
