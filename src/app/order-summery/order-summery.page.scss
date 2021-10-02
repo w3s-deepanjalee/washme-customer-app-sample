@@ -1,0 +1,40 @@
+* {
+    font-family: "Raleway" !important;
+  }
+  
+  ion-header {
+    ion-title {
+      font-weight: bolder;
+      font-size: 22px;
+      color: #0582ca;
+    }
+  
+    .search-icon {
+      color: #0582ca;
+    }
+  }
+  
+  .logo {
+    margin-left: 10px;
+  }
+
+
+  ion-content {
+    --ion-background-color: #f5f2ec;
+
+    .map-wrapper{
+        margin: 1em 0.5em 1em 0.5em;
+    
+        .img{
+          background-image: url(../../assets/map/map-location.jpg);
+          border-radius: 21px;
+          height: 13em;
+          background-repeat: no-repeat !important;
+          background-size: cover !important;
+          background-position: right !important;
+          background-size: cover;
+        }
+      }
+
+  }
+  
