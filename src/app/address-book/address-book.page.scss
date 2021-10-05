@@ -1,0 +1,163 @@
+* {
+    font-family: "Raleway" !important;
+  }
+  
+  ion-header {
+    ion-title {
+      font-weight: bolder;
+      font-size: 22px;
+      color: #0582ca;
+    }
+  
+    .search-icon {
+      color: #0582ca;
+    }
+  }
+  
+  .logo {
+    margin-left: 10px;
+  }
+
+  ion-content {
+    --ion-background-color: #f5f2ec;
+  
+    .cart-heading {
+        background-color: var(--washme-blue);
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .cart-heading ion-label {
+        color: white;
+        font-size: 23px;
+      }
+
+      .address-wrapper{
+        background: #f5f2ec;
+        color: var(--washme-ash);
+        border: none;
+
+
+        ion-segment-button{
+            --background-activated: #f5f2ec !important;
+            background: transparent !important;
+            border: none !important;
+            --color: var(--washme-ash);
+           --color-checked: #f5f2ec !important;
+           
+
+        
+            text-transform: none;
+            padding:1em;
+            
+        }
+        .normal{
+            color: var(--washme-ash);
+        }
+        .active{
+            color: var(--washme-blue);
+        }
+
+        
+
+
+      }
+     
+      .feild-wrapper{
+        margin: 2em 2em 1em 2em;  
+
+        .input-feild{
+            margin-top: 10px;
+            width: 100%;
+            background: white;
+            border-radius: 1em;
+            height: 2.5em;
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            ion-input{
+            --padding-start:1em;
+            }
+
+            
+            // ion-button{
+            //   padding: 0;
+            //   margin-left:-8px ;
+            //   color: rgba($color: #1d1d1d, $alpha: 0.5);
+            // }
+
+        }
+
+        .input-textarea{
+            margin-top: 10px;
+            width: 100%;
+            background: white;
+            border-radius: 1em;
+            height: auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            ion-textarea{
+                --padding-start:1em;
+
+            }
+        }
+
+        .button-wrapper{
+        margin-top: 0.8em;
+
+        ion-button{
+            height: 2.5em;
+            --border-radius: 1em;
+            --background:white;
+            color: rgba($color: #1d1d1d, $alpha: 0.5);
+            text-align: left !important;
+            text-transform: none !important;
+            font-size: 17px;
+            --box-shadow:none;
+
+            span.ion-text-left {
+            margin-right: auto;
+        } 
+        }
+
+    }
+
+        .save-btn-wrapper{
+        margin-top: 10px;
+        padding: 0 5px;
+        text-align: right;
+        ion-button{
+            --background:var(--washme-blue);
+            --border-radius: 1em;
+            text-transform: none !important;
+
+            ion-icon{
+            margin: 0.2em;
+            }
+
+        }
+        }
+    
+        .date-time-wrapper{
+        margin-top: 0.8em;
+        
+        width: 100%;
+        background: white;
+        border-radius: 1em;
+        height: 2.5em;
+        
+        ion-datetime{
+            margin-left:-1px ;
+            color: rgba($color: #1d1d1d, $alpha: 0.6);
+        }
+
+        }   
+    }
+    
+  }

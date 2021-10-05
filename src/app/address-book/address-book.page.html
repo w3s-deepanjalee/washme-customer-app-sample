@@ -1,0 +1,75 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar no-border="no-border">
+    <div slot="start" class="logo">
+      <img src="../../assets/logo/logo-header.png" width="40px" />
+    </div>
+
+    <ion-title class="ion-text-center">washme.lk</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon
+          slot="end"
+          name="search-circle"
+          size="large"
+          class="search-icon"
+        ></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <section>
+    <div class="cart-heading">
+      <ion-label>Address Book</ion-label>
+    </div>
+  </section>
+
+  <section>
+    <ion-segment
+      class="address-wrapper"
+      value="home"
+      (ionChange)="addressChange($event)"
+    >
+      <ion-segment-button class="active" [value]="value" layout="icon-start">
+        <ion-label>Home</ion-label>
+        <ion-icon name="home"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button class="normal" layout="icon-start">
+        <ion-label>Office</ion-label>
+        <ion-icon name="briefcase"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button class="normal" value="other" layout="icon-start">
+        <ion-label>Other</ion-label>
+        <ion-icon name="location"></ion-icon>
+      </ion-segment-button>
+    </ion-segment>
+  </section>
+
+  <section>
+    <div class="feild-wrapper">
+      <form action="">
+        <div class="input-feild">
+          <ion-input placeholder="Address 1"> </ion-input>
+        </div>
+        <div class="input-feild">
+          <ion-input placeholder="Address 2"> </ion-input>
+        </div>
+        <div class="input-feild">
+          <ion-input placeholder="Email"> </ion-input>
+        </div>
+        <div class="input-feild">
+          <ion-input placeholder="Place name"> </ion-input>
+        </div>
+        <div class="input-textarea">
+          <ion-textarea
+            rows="3"
+            cols="20"
+            placeholder="Special Instruction"
+          ></ion-textarea>
+        </div>
+      </form>
+    </div>
+  </section>
+</ion-content>

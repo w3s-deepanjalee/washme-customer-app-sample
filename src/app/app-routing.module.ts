@@ -37,6 +37,10 @@ const routes: Routes = [
     path: 'order-summery',
     loadChildren: () => import('./order-summery/order-summery.module').then( m => m.OrderSummeryPageModule)
   },
+  {
+    path: 'address-book',
+    loadChildren: () => import('./address-book/address-book.module').then( m => m.AddressBookPageModule)
+  },
 ];
 @NgModule({
   imports: [
