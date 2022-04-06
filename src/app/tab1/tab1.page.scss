@@ -26,6 +26,12 @@ ion-content {
     height: 11vh;
   }
 
+  ion-slide {
+    a {
+      text-decoration: none;
+    }
+  }
+
   .category-img {
     margin-top: 1vh;
     width: 7vh;
@@ -33,8 +39,7 @@ ion-content {
     overflow: hidden;
     border-radius: 50%;
     position: relative;
-    background-image: linear-gradient(white, white),
-      linear-gradient(to top, var(--washme-blue), var(--washme-green));
+    background-image: linear-gradient(white, white), linear-gradient(to top, var(--washme-blue), var(--washme-green));
     border: 4px solid transparent;
     background-origin: border-box;
     background-clip: content-box, border-box;
