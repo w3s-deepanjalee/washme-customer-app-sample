@@ -2,14 +2,12 @@
   font-family: "Raleway" !important;
 }
 ion-content {
-   
   .bg-class {
     position: relative;
 
     justify-content: center;
   }
 
-  
   .login-form {
     display: block;
 
@@ -26,18 +24,21 @@ ion-content {
       margin: -40px 10px 0px 10px;
     }
 
-    ion-card-content{
+    ion-card-content {
       margin-bottom: 2em;
     }
-    ion-card {   
-      height: 400px;      
+    ion-card {
+      ion-input {
+        font-size: medium;
+      }
+      height: 400px;
       border-radius: 20px;
       box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
 
       card-footer {
         position: absolute;
         bottom: 0;
-        
+
         width: 100%;
       }
     }
@@ -48,8 +49,6 @@ ion-content {
     ion-input {
       font-weight: 700;
       font-size: 19px;
-
- 
     }
   }
 
@@ -81,7 +80,6 @@ ion-content {
   }
 
   .create-account {
-  
     .create-account-link {
       color: #22bcff;
       font-weight: bolder;
@@ -97,25 +95,21 @@ ion-content {
   }
 }
 
-ion-footer{
-  ion-toolbar{
+ion-footer {
+  ion-toolbar {
     --min-height: 30px;
     bottom: 0px;
-    --background :none;
+    --background: none;
 
-    --color:white;
-    a{
+    --color: white;
+    a {
       text-decoration: none;
-      span{
-        color:orange;
+      span {
+        color: orange;
       }
-
     }
-    
 
-    ion-title{
-       
-    
+    ion-title {
       @media screen and (max-width: 1440px) {
         font-size: 13px;
       }
@@ -140,7 +134,6 @@ ion-footer{
       @media screen and (max-width: 360px) {
         font-size: 10px;
       }
-
     }
   }
 }

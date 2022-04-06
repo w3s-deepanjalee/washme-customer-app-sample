@@ -41,6 +41,18 @@ const routes: Routes = [
     path: 'address-book',
     loadChildren: () => import('./address-book/address-book.module').then( m => m.AddressBookPageModule)
   },
+  {
+    path: 'sign-up',
+    loadChildren: () => import('./sign-up/sign-up.module').then( m => m.SignUpPageModule)
+  },
+  {
+    path: 'sign-up-verification',
+    loadChildren: () => import('./sign-up-verification/sign-up-verification.module').then( m => m.SignUpVerificationPageModule)
+  },
+  {
+    path: 'change-password',
+    loadChildren: () => import('./change-password/change-password.module').then( m => m.ChangePasswordPageModule)
+  },
 ];
 @NgModule({
   imports: [
