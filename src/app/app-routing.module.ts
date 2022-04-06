@@ -53,6 +53,10 @@ const routes: Routes = [
     path: 'change-password',
     loadChildren: () => import('./change-password/change-password.module').then( m => m.ChangePasswordPageModule)
   },
+  {
+    path: 'quick-login-verification',
+    loadChildren: () => import('./quick-login-verification/quick-login-verification.module').then( m => m.QuickLoginVerificationPageModule)
+  },
 ];
 @NgModule({
   imports: [
