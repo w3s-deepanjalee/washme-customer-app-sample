@@ -8,12 +8,7 @@
 
     <ion-buttons slot="end">
       <ion-button>
-        <ion-icon
-          slot="end"
-          name="search-circle"
-          size="large"
-          class="search-icon"
-        ></ion-icon>
+        <ion-icon slot="end" name="search-circle" size="large" class="search-icon"></ion-icon>
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
@@ -27,11 +22,7 @@
   </section>
 
   <section>
-    <ion-segment
-      class="address-wrapper"
-      value="home"
-      (ionChange)="addressChange($event)"
-    >
+    <ion-segment class="address-wrapper" value="home" (ionChange)="addressChange($event)">
       <ion-segment-button class="active" [value]="value" layout="icon-start">
         <ion-label>Home</ion-label>
         <ion-icon name="home"></ion-icon>
@@ -63,13 +54,23 @@
           <ion-input placeholder="Place name"> </ion-input>
         </div>
         <div class="input-textarea">
-          <ion-textarea
-            rows="3"
-            cols="20"
-            placeholder="Special Instruction"
-          ></ion-textarea>
+          <ion-textarea rows="3" cols="20" placeholder="Special Instruction"></ion-textarea>
         </div>
       </form>
+
     </div>
+  </section>
+
+  <section class="map-wrapper">
+
+    <ion-card class="map" style="background: url(../../assets/map/map.JPG);">
+
+
+    </ion-card>
+
+    <div class="btn-wrapper">
+      <ion-button class="next-btn">Save Changes</ion-button>
+    </div>
+
   </section>
 </ion-content>

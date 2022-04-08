@@ -8,12 +8,7 @@
 
     <ion-buttons slot="end">
       <ion-button>
-        <ion-icon
-          slot="end"
-          name="search-circle"
-          size="large"
-          class="search-icon"
-        ></ion-icon>
+        <ion-icon slot="end" name="search-circle" size="large" class="search-icon"></ion-icon>
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
@@ -27,21 +22,77 @@
           <ion-input placeholder="First Name"> </ion-input>
         </div>
         <div class="input-feild">
-          <ion-input placeholder="First Name"> </ion-input>
+          <ion-input placeholder="Last Name"> </ion-input>
         </div>
         <div class="input-feild">
-          <ion-input placeholder="First Name"> </ion-input>
+          <ion-input placeholder="Email"> </ion-input>
         </div>
         <div class="input-feild">
-          <ion-input placeholder="First Name"> </ion-input>
+          <ion-input placeholder="Mobile"> </ion-input>
         </div>
         <div class="input-feild">
-          <ion-input placeholder="First Name"> </ion-input>
+          <ion-input placeholder="Birth Day"> </ion-input>
         </div>
-        <div class="input-feild">
-          <ion-input placeholder="First Name"> </ion-input>
-        </div>
+        <a class="input-feild large-button" href="#">
+          <ion-label> Address Book</ion-label>
+          <ion-icon name="create" slot="end"></ion-icon>
+        </a>
+        <!-- <div class="input-feild">
+          <ion-button fill="clear" shape="round" expand="full">
+            <ion-label> Address Book</ion-label>
+            <ion-icon name="create" slot="end"></ion-icon>
+          </ion-button>
+
+        </div> -->
+
       </form>
+
+      <section class="common-btn-wrapper">
+        <ion-card class="common-btn">
+          <ion-card-content class="content-btn">
+            <ion-item color="transparent" lines="none">
+              <ion-label>
+                Popular Items
+              </ion-label>
+            </ion-item>
+
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="common-btn">
+          <ion-card-content class="content-btn">
+            <ion-item color="transparent" lines="none">
+              <ion-label>
+                My Review
+              </ion-label>
+            </ion-item>
+
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card class="common-btn">
+          <ion-card-content class="content-btn">
+            <ion-item color="transparent" lines="none">
+              <ion-label>
+                My Cancellation
+              </ion-label>
+            </ion-item>
+
+          </ion-card-content>
+        </ion-card>
+      </section>
+
+      <section class="faviourt-wrapper">
+        <ion-card class="faviourt-btn">
+          <ion-card-content class="content-btn">
+            <ion-item color="transparent" lines="none">
+              <ion-label>
+                My Faviourt
+              </ion-label>
+            </ion-item>
+
+          </ion-card-content>
+        </ion-card>
+      </section>
     </div>
   </section>
 </ion-content>
