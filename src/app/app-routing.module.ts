@@ -61,6 +61,10 @@ const routes: Routes = [
     path: 'forgot-password',
     loadChildren: () => import('./forgot-password/forgot-password.module').then( m => m.ForgotPasswordPageModule)
   },
+  {
+    path: 'my-review',
+    loadChildren: () => import('./my-review/my-review.module').then( m => m.MyReviewPageModule)
+  },
 ];
 @NgModule({
   imports: [
