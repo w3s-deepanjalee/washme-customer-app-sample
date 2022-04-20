@@ -1,17 +1,130 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+<ion-header class="ion-no-border">
+  <ion-toolbar no-border="no-border">
+    <div slot="start" class="logo">
+      <img src="../../assets/logo/logo-header.png" width="40px">
+    </div>
+
+    <ion-title class="ion-text-center">washme.lk</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="end" name="search-circle" size="large" class="search-icon"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+
+
+
+  <section class="order-wrapper">
+    <ion-card class="single-wrapper ion-margin">
+      <ion-card-header>
+        <ion-item class="heading">
+          <ion-label>0114</ion-label>
+        </ion-item>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-item class="single-status" lines="none">
+          <ion-icon name="checkmark-circle" class="status-icon complete"></ion-icon>
+          <ion-label class="status-label">Pick up</ion-label>
+        </ion-item>
+        <ion-item class="single-status" lines="none">
+          <ion-icon name="checkmark-circle" class="status-icon complete"></ion-icon>
+          <ion-label class="status-label">Confirm Order</ion-label>
+        </ion-item>
+        <ion-item class="single-status" lines="none">
+          <ion-icon name="checkmark-circle" class="status-icon complete"></ion-icon>
+          <ion-label class="status-label">Process</ion-label>
+        </ion-item>
+        <ion-item class="single-status" lines="none">
+          <ion-icon name="checkmark-circle" class="status-icon complete"></ion-icon>
+          <ion-label class="status-label">Deliver</ion-label>
+        </ion-item>
+        <ion-item class="single-status" lines="none">
+          <ion-icon name="ellipse" class="status-icon uncomplete"></ion-icon>
+          <ion-label class="status-label">Complete</ion-label>
+        </ion-item>
+
+
+
+        <div class="btn-section">
+          <ion-button expand="block" class="confirm-btn btn">
+            Confirm
+          </ion-button>
+
+          <ion-button expand="block" class="reject-btn btn">
+            Reject
+          </ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card class="single-wrapper ion-margin">
+      <ion-card-header>
+        <ion-item class="heading">
+          <ion-label>0115</ion-label>
+        </ion-item>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-item class="single-status" lines="none">
+          <ion-icon name="checkmark-circle" class="status-icon complete"></ion-icon>
+          <ion-label class="status-label">Pick up</ion-label>
+        </ion-item>
+        <ion-item class="single-status" lines="none">
+          <ion-icon name="checkmark-circle" class="status-icon complete"></ion-icon>
+          <ion-label class="status-label">Confirm Order</ion-label>
+        </ion-item>
+        <ion-item class="single-status" lines="none">
+          <ion-icon name="checkmark-circle" class="status-icon complete"></ion-icon>
+          <ion-label class="status-label">Process</ion-label>
+        </ion-item>
+        <ion-item class="single-status" lines="none">
+          <ion-icon name="checkmark-circle" class="status-icon complete"></ion-icon>
+          <ion-label class="status-label">Deliver</ion-label>
+        </ion-item>
+        <ion-item class="single-status" lines="none">
+          <ion-icon name="ellipse" class="status-icon uncomplete"></ion-icon>
+          <ion-label class="status-label">Complete</ion-label>
+        </ion-item>
+
+
+
+        <div class="btn-section">
+          <ion-button expand="block" class="btn">
+            Confirm
+          </ion-button>
+
+          <ion-button expand="block" class="btn">
+            Reject
+          </ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </section>
+
+  <section class="btn-wrapper">
+    <ion-card class="ion-margin item left" style="background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(5, 5, 5, 0.5)
+    ),
+    url(../../assets/item-category/myFav.jpg) top no-repeat;">
+      <ion-card-content>
+        <ion-label class="title">My Faviourt</ion-label>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card class="ion-margin item" style="background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(5, 5, 5, 0.5)
+    ),
+    url(../../assets/item-category/Blouse.png) top no-repeat;">
+      <ion-card-content>
+        <ion-label class="title">Popular Item</ion-label>
+      </ion-card-content>
+    </ion-card>
+  </section>
 </ion-content>

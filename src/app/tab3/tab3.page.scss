@@ -1,0 +1,100 @@
+* {
+    font-family: "Raleway" !important;
+}
+
+ion-header {
+    ion-title {
+        font-weight: bolder;
+        font-size: 22px;
+        color: #0582ca;
+    }
+
+    .search-icon {
+        color: #0582ca;
+    }
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+ion-content {
+    --ion-background-color: #f5f2ec;
+
+    .order-wrapper {
+        .single-wrapper {
+            background-color: white;
+            border-radius: 1em;
+
+            .heading {
+                --background: white;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 900;
+            }
+
+            .single-status {
+                --background: white;
+                padding-left: 2em;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: -0.5em;
+
+                .status-icon {
+                    margin-right: 1em;
+                }
+
+                .complete {
+                    color: black;
+                }
+
+                .uncomplete {
+                    color: var(--washme-ash);
+                }
+
+                .status-label {
+                    font-size: 16px;
+                }
+            }
+
+            .btn-section {
+                margin-top: 1em;
+                display: flex;
+                justify-content: space-between;
+
+                .btn {
+                    width: 10em;
+                    text-decoration: none;
+                    --border-radius: 1em;
+                    --background: var(--washme-blue);
+                    text-transform: none;
+                }
+            }
+        }
+    }
+
+    .btn-wrapper {
+        display: flex;
+        justify-content: space-between;
+        .item {
+            --background: rgb(31, 27, 27);
+            border-radius: 1em;
+            width: 15em;
+            height: 6em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover !important;
+            background-position: center !important;
+
+            .title {
+                font-size: 20px;
+                font-weight: 900;
+                color: white;
+            }
+        }
+        .left {
+            margin-right: -1px;
+        }
+    }
+}
