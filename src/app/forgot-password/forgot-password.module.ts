@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { ForgotPasswordPageRoutingModule } from './forgot-password-routing.module';
+import { ComponentModule } from '../components/components.module';
 
 import { ForgotPasswordPage } from './forgot-password.page';
 
@@ -13,6 +14,7 @@ import { ForgotPasswordPage } from './forgot-password.page';
     CommonModule,
     FormsModule,
     IonicModule,
+    ComponentModule,
     ForgotPasswordPageRoutingModule
   ],
   declarations: [ForgotPasswordPage]

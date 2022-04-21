@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { QuickLoginPageRoutingModule } from './quick-login-routing.module';
+import { ComponentModule } from '../components/components.module';
+
 
 import { QuickLoginPage } from './quick-login.page';
 
@@ -13,6 +15,7 @@ import { QuickLoginPage } from './quick-login.page';
     CommonModule,
     FormsModule,
     IonicModule,
+    ComponentModule,
     QuickLoginPageRoutingModule
   ],
   declarations: [QuickLoginPage]

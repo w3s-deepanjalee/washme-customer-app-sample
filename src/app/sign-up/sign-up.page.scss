@@ -257,56 +257,6 @@ ion-content {
     }
 }
 
-ion-footer {
-    ion-toolbar {
-        --min-height: 30px;
-
-        --background: rgb(14, 80, 133);
-        --background: linear-gradient(
-            216deg,
-            rgba(14, 80, 133, 1) 64%,
-            rgba(32, 104, 156, 1) 90%,
-            rgba(54, 135, 184, 1) 98%,
-            rgba(108, 210, 255, 1) 100%
-        );
-
-        --color: white;
-        a {
-            text-decoration: none;
-            span {
-                color: orange;
-            }
-        }
-
-        ion-title {
-            @media screen and (max-width: 1440px) {
-                font-size: 13px;
-            }
-            @media screen and (max-width: 1024px) {
-                font-size: 13px;
-            }
-            @media screen and (max-width: 768px) {
-                font-size: 12px;
-            }
-            @media screen and (max-width: 540px) {
-                font-size: 12px;
-            }
-            @media screen and (max-width: 414px) {
-                font-size: 11px;
-            }
-            @media screen and (max-width: 411px) {
-                font-size: 11px;
-            }
-            @media screen and (max-width: 375px) {
-                font-size: 10px;
-            }
-            @media screen and (max-width: 360px) {
-                font-size: 10px;
-            }
-        }
-    }
-}
-
 .create-account {
     .create-account-link {
         color: #22bcff;
@@ -320,8 +270,4 @@ ion-footer {
         font-size: 16px;
         font-weight: bolder;
     }
-}
-
-.card-footer {
-    margin-top: -40px;
 }
