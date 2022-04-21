@@ -1,0 +1,19 @@
+* {
+    font-family: "Raleway" !important;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+ion-header {
+    ion-title {
+        font-weight: bolder;
+        font-size: 22px;
+        color: var(--washme-blue);
+    }
+
+    .search-icon {
+        color: var(--washme-blue);
+    }
+}

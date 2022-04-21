@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { OrderSummeryPageRoutingModule } from './order-summery-routing.module';
+import { ComponentModule } from '../components/components.module'; 
 
 import { OrderSummeryPage } from './order-summery.page';
 
@@ -13,6 +14,7 @@ import { OrderSummeryPage } from './order-summery.page';
     CommonModule,
     FormsModule,
     IonicModule,
+    ComponentModule,
     OrderSummeryPageRoutingModule
   ],
   declarations: [OrderSummeryPage]

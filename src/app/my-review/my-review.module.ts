@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { MyReviewPageRoutingModule } from './my-review-routing.module';
+import { ComponentModule } from '../components/components.module'; 
 
 import { MyReviewPage } from './my-review.page';
 
@@ -13,6 +14,7 @@ import { MyReviewPage } from './my-review.page';
     CommonModule,
     FormsModule,
     IonicModule,
+    ComponentModule,
     MyReviewPageRoutingModule
   ],
   declarations: [MyReviewPage]

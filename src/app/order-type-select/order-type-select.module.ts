@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { OrderTypeSelectPageRoutingModule } from './order-type-select-routing.module';
+import { ComponentModule } from '../components/components.module'; 
 
 import { OrderTypeSelectPage } from './order-type-select.page';
 
@@ -13,6 +14,7 @@ import { OrderTypeSelectPage } from './order-type-select.page';
     CommonModule,
     FormsModule,
     IonicModule,
+    ComponentModule,
     OrderTypeSelectPageRoutingModule
   ],
   declarations: [OrderTypeSelectPage]

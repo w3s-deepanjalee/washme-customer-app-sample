@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { OrdersPageRoutingModule } from './orders-routing.module';
+import { ComponentModule } from '../components/components.module'; 
 
 import { OrdersPage } from './orders.page';
 
@@ -13,6 +14,7 @@ import { OrdersPage } from './orders.page';
     CommonModule,
     FormsModule,
     IonicModule,
+    ComponentModule,
     OrdersPageRoutingModule
   ],
   declarations: [OrdersPage]

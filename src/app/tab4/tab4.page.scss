@@ -1,192 +1,146 @@
 * {
-    font-family: "Raleway" !important;
-  }
-  
-  ion-header {
-      ion-title {
-        font-weight: bolder;
-        font-size: 22px;
-        color: var(--washme-blue);
-      }
-      .search-icon {
-        color: var(--washme-blue);
-      }
-    }
-  
-    .logo {
-      margin-left: 10px;
-    }
-  
-    
-  
-    ion-content{
-    --ion-background-color: #f5f2ec;
+  font-family: "Raleway" !important;
+}
 
-    .feild-wrapper{
-        margin: 2em 2em 1em 2em;  
+ion-content {
+  --ion-background-color: #f5f2ec;
 
-    .input-feild{
-        margin-top: 10px;
-        width: 100%;
-        background: white;
-        border-radius: 1em;
-        height: 2.5em;
+  .feild-wrapper {
+    margin: 2em 2em 1em 2em;
 
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-
-        ion-input{
-          --padding-start:1em;
-        }
-        // ion-button{
-        //   padding: 0;
-        //   margin-left:-8px ;
-        //   color: rgba($color: #1d1d1d, $alpha: 0.5);
-        // }
-
-    }
-
-    .button-wrapper{
-      margin-top: 0.8em;
-
-      ion-button{
-        height: 2.5em;
-        --border-radius: 1em;
-        --background:white;
-        color: rgba($color: #1d1d1d, $alpha: 0.5);
-        text-align: left !important;
-        text-transform: none !important;
-        font-size: 17px;
-        --box-shadow:none;
-
-        span.ion-text-left {
-          margin-right: auto;
-       } 
-      }
-
-    }
-
-    .save-btn-wrapper{
+    .input-feild {
       margin-top: 10px;
-      padding: 0 5px;
-      text-align: right;
-      ion-button{
-        --background:var(--washme-blue);
-        --border-radius: 1em;
-        text-transform: none !important;
-       
-        
-       
-
-
-        ion-icon{
-          margin: 0.2em;
-        }
-
-      }
-    }
-   
-   
-
-    .date-time-wrapper{
-      margin-top: 0.8em;
-      
       width: 100%;
       background: white;
       border-radius: 1em;
       height: 2.5em;
-      
-      ion-datetime{
-        margin-left:-1px ;
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      ion-input {
+        --padding-start: 1em;
+      }
+      // ion-button{
+      //   padding: 0;
+      //   margin-left:-8px ;
+      //   color: rgba($color: #1d1d1d, $alpha: 0.5);
+      // }
+    }
+
+    .button-wrapper {
+      margin-top: 0.8em;
+
+      ion-button {
+        height: 2.5em;
+        --border-radius: 1em;
+        --background: white;
+        color: rgba($color: #1d1d1d, $alpha: 0.5);
+        text-align: left !important;
+        text-transform: none !important;
+        font-size: 17px;
+        --box-shadow: none;
+
+        span.ion-text-left {
+          margin-right: auto;
+        }
+      }
+    }
+
+    .save-btn-wrapper {
+      margin-top: 10px;
+      padding: 0 5px;
+      text-align: right;
+      ion-button {
+        --background: var(--washme-blue);
+        --border-radius: 1em;
+        text-transform: none !important;
+
+        ion-icon {
+          margin: 0.2em;
+        }
+      }
+    }
+
+    .date-time-wrapper {
+      margin-top: 0.8em;
+
+      width: 100%;
+      background: white;
+      border-radius: 1em;
+      height: 2.5em;
+
+      ion-datetime {
+        margin-left: -1px;
         color: rgba($color: #1d1d1d, $alpha: 0.6);
       }
-
     }
-  
+  }
 
-   
-    }
+  .order-type-wrapper {
+    margin: 2em 1.5em 1em 1.5em;
 
-    .order-type-wrapper{
-      margin: 2em 1.5em 1em 1.5em;
-     
+    .order-type {
+      display: flex;
+      justify-content: center;
 
-      .order-type {
-       
-        display: flex;
-        justify-content: center;
-        
-        align-items: center;
-        
+      align-items: center;
 
-        
-        
-        ion-card-content{
-          ion-item{
-            ion-label{
-              text-align: center;
-              color: white;
-            }
+      ion-card-content {
+        ion-item {
+          ion-label {
+            text-align: center;
+            color: white;
           }
         }
-
       }
+    }
 
-      .btn{
-        --background: rgb(56, 236, 188);
-      --background: linear-gradient(
-        180deg,
-        rgba(56, 236, 188, 1) 0%,
-        rgba(34, 188, 255, 1) 100%
-      );
+    .btn {
+      --background: rgb(56, 236, 188);
+      --background: linear-gradient(180deg, rgba(56, 236, 188, 1) 0%, rgba(34, 188, 255, 1) 100%);
       height: 10vh;
       font-weight: 900;
       border-radius: 5em !important;
-
-      }
-      .img{
-        background-image: url(../../assets/order-type/faviourt.png);
-        border-radius: 21px;
-        height: 8em;
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-
-        background-position: right !important;
-        background-size: cover;
-      }
-
     }
+    .img {
+      background-image: url(../../assets/order-type/faviourt.png);
+      border-radius: 21px;
+      height: 8em;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
 
-    // .item-wrapper{
-    //   margin: 2em 1.5em 1em 1.5em;
-    //   .empty-cart {
-      
-    //     height: 10vh;
-    //     border-radius: 5em !important;
-    //     --background: rgb(56, 236, 188);
-    //     --background: linear-gradient(
-    //       180deg,
-    //       rgba(56, 236, 188, 1) 0%,
-    //       rgba(34, 188, 255, 1) 100%
-    //     );
-    //     padding: 0.2em;
-    
-    //     --color: white;
-    
-     
-    
-    //     .empty-content-btn {
-    //       display: flex;
-         
-    //       justify-content: center;
-    //     }
-    
-    //     ion-item {
-    //       color: white;
-    //     }
-    //   }
-    // }
-  
-
+      background-position: right !important;
+      background-size: cover;
     }
+  }
+
+  // .item-wrapper{
+  //   margin: 2em 1.5em 1em 1.5em;
+  //   .empty-cart {
+
+  //     height: 10vh;
+  //     border-radius: 5em !important;
+  //     --background: rgb(56, 236, 188);
+  //     --background: linear-gradient(
+  //       180deg,
+  //       rgba(56, 236, 188, 1) 0%,
+  //       rgba(34, 188, 255, 1) 100%
+  //     );
+  //     padding: 0.2em;
+
+  //     --color: white;
+
+  //     .empty-content-btn {
+  //       display: flex;
+
+  //       justify-content: center;
+  //     }
+
+  //     ion-item {
+  //       color: white;
+  //     }
+  //   }
+  // }
+}
