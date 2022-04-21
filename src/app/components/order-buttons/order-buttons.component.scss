@@ -1,0 +1,9 @@
+.btn-wrapper {
+    margin: 0.25em;
+
+    .btn {
+        --background: var(--washme-ash);
+        margin: -2px;
+        text-transform: none;
+    }
+}
