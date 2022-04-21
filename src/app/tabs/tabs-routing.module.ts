@@ -32,6 +32,31 @@ const routes: Routes = [
         redirectTo: '/tabs/tab1',
         pathMatch: 'full',
       },
+      {
+        path: 'orders',
+        loadChildren: () => import('../orders/orders.module').then( m => m.OrdersPageModule)
+      },
+      {
+        path: 'my-review',
+        loadChildren: () => import('../my-review/my-review.module').then( m => m.MyReviewPageModule)
+      },
+      {
+        path: 'address-book',
+        loadChildren: () => import('../address-book/address-book.module').then( m => m.AddressBookPageModule)
+      },
+      {
+        path: 'order-summery',
+        loadChildren: () => import('../order-summery/order-summery.module').then( m => m.OrderSummeryPageModule)
+      },
+      {
+        path: 'order-type-select',
+        loadChildren: () => import('../order-type-select/order-type-select.module').then( m => m.OrderTypeSelectPageModule)
+      },
+      {
+        path: 'cart',
+        loadChildren: () =>
+          import('../cart/cart.module').then((m) => m.CartPageModule),
+      },
     ],
   },
   {

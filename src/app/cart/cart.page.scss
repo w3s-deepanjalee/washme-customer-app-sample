@@ -66,29 +66,26 @@ ion-content {
     ion-item {
       display: flex;
       justify-content: center;
-     
+
       div {
         margin-right: 4px;
       }
 
-      
-      .item-img-wrapper{
+      .item-img-wrapper {
         .item-img-round {
-
           width: 2.5em;
           height: 2.5em;
           border-radius: 50%;
           background-repeat: no-repeat !important;
           background-size: cover !important;
-  
+
           background-position: right !important;
           background-size: cover;
         }
       }
-      
-      .item-name{
-        width: 35%;
 
+      .item-name {
+        width: 35%;
       }
 
       .increase-qty {
@@ -101,7 +98,7 @@ ion-content {
         }
       }
 
-      .item-qty-wrapper{
+      .item-qty-wrapper {
         display: flex;
         justify-content: center;
         width: 15%;
@@ -115,48 +112,41 @@ ion-content {
           height: 2em;
           border-radius: 50%;
         }
-
       }
 
-      .amount-wrapper{
+      .amount-wrapper {
         width: 20%;
         text-align: right;
-
       }
 
-      .total-title{
+      .total-title {
         width: 60%;
         margin-left: 10px;
-  
       }
 
-      .total-amount{
+      .total-amount {
         width: 40%;
         text-align: right;
       }
-     
     }
   }
 
-  .btn-wrapper{
+  .btn-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 15px;
+    margin-bottom: 2em;
 
-    .next-btn{
+    .next-btn {
       --color: white;
       --background: var(--washme-blue);
       --border-radius: 50px;
       --padding-start: 5em;
       --padding-end: 5em;
-      --padding-bottom:1.5em;
-      --padding-top:1.5em;
+      --padding-bottom: 1.5em;
+      --padding-top: 1.5em;
       font-weight: 600;
-     
     }
-
   }
-
- 
 }
