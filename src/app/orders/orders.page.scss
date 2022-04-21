@@ -1,0 +1,31 @@
+* {
+    font-family: "Raleway" !important;
+}
+
+ion-header {
+    ion-title {
+        font-weight: bolder;
+        font-size: 22px;
+        color: #0582ca;
+    }
+
+    .search-icon {
+        color: #0582ca;
+    }
+}
+
+ion-content {
+    --ion-background-color: #f5f2ec;
+
+    ion-segment {
+        ion-segment-button {
+            --indicator-box-shadow: transparent !important;
+            border-radius: 2.5rem !important;
+            --background: white;
+            --color: #2d2e87;
+            --background-checked: linear-gradient(to right, #2d2e87, #0083cb) !important;
+            --color-checked: white;
+            --indicator-color: transparent !important;
+        }
+    }
+}
