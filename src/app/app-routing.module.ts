@@ -69,10 +69,7 @@ const routes: Routes = [
     path: 'orders',
     loadChildren: () => import('./orders/orders.module').then( m => m.OrdersPageModule)
   },
-  {
-    path: 'order-hearder',
-    loadChildren: () => import('./order-hearder/order-hearder.module').then( m => m.OrderHearderPageModule)
-  },
+ 
 ];
 @NgModule({
   imports: [
