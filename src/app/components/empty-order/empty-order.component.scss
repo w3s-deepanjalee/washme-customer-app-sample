@@ -1,42 +1,51 @@
-.wrapper {
-    display: flex;
-    margin-top: 3em;
-    justify-content: center;
-    flex-direction: row;
-    .logo-wrapper {
-        width: 50%;
-        border-radius: 50%;
-    }
-}
-.heading-wrapper {
-    margin-top: 3em;
-    display: flex;
-    justify-content: center;
+.main-wrapper {
+    margin: 0.25em;
+    .sub-wrapper {
+        background-color: var(--washme-dark-blue);
+        height: 37em;
+        border-radius: 1em;
 
-    .heading {
-        padding: 0 2.1em 0 2.1em;
-        text-align: center;
-        font-size: 3.5vh;
-        color: white;
-        font-weight: 500;
-    }
-}
-.btn-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2.2em;
-    margin-bottom: 2em;
+        .wrapper {
+            display: flex;
+            margin-top: 3em;
+            justify-content: center;
+            flex-direction: row;
+            .logo-wrapper {
+                width: 50%;
+                border-radius: 50%;
+            }
+        }
+        .heading-wrapper {
+            margin-top: 3em;
+            display: flex;
+            justify-content: center;
 
-    .btn {
-        --color: var(--ion-color-dark);
-        --background: white;
-        --border-radius: 50px;
-        --padding-start: 5em;
-        --padding-end: 5em;
-        --padding-bottom: 1.5em;
-        --padding-top: 1.5em;
-        font-weight: 600;
-        text-transform: none;
+            .heading {
+                padding: 0 2.1em 0 2.1em;
+                text-align: center;
+                font-size: 3.5vh;
+                color: white;
+                font-weight: 500;
+            }
+        }
+        .btn-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2.2em;
+            margin-bottom: 2em;
+
+            .btn {
+                --color: var(--ion-color-dark);
+                --background: white;
+                --border-radius: 50px;
+                --padding-start: 5em;
+                --padding-end: 5em;
+                --padding-bottom: 1.5em;
+                --padding-top: 1.5em;
+                font-weight: 600;
+                text-transform: none;
+            }
+        }
     }
 }

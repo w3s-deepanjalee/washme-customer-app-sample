@@ -1,9 +1,42 @@
-.orders-wrapper {
-    text-align: center;
-    padding: 1.2em;
-    .heading {
-        font-size: 1.7rem;
-        font-weight: bold;
-        color: white;
+.main-wrapper {
+    margin: 0.25em;
+    .sub-wrapper {
+        background-color: var(--washme-dark-blue);
+
+        border-radius: 1em;
+
+        .orders-wrapper {
+            text-align: center;
+            padding: 1.2em;
+            .heading {
+                font-size: 1.7rem;
+                font-weight: bold;
+                color: white;
+            }
+        }
+
+        .order {
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5em;
+            margin: 0 1.5em 1.5em 1.5em;
+            border-radius: 1em;
+
+            .title {
+                font-weight: bold;
+                color: rgb(0, 0, 0);
+            }
+
+            .right {
+                text-align: right;
+            }
+            .btn {
+                --background: var(--washme-dark-blue-2);
+                color: white;
+                --border-radius: 1em;
+                text-transform: none;
+            }
+        }
     }
 }
