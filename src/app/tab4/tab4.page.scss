@@ -105,7 +105,7 @@ ion-content {
       border-radius: 5em !important;
     }
     .img {
-      background-image: url(../../assets/order-type/faviourt.png);
+      // background-image: url(../../assets/order-type/faviourt.png);
       border-radius: 21px;
       height: 8em;
       background-repeat: no-repeat !important;
@@ -143,4 +143,9 @@ ion-content {
   //     }
   //   }
   // }
+}
+.title {
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
 }
